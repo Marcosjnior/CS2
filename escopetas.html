@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    .imagem{
+      background-color: gray;
+      height: 300px;
+    }
+    .card{
+      width: 80%;
+    }
+    .bgimg{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-attachment: fixed;
+  }
+        
+    
+</style>
+<body>
+  <header style="background-image: url(https://tradeit.gg/blog/wp-content/uploads/2023/07/image-20-1024x576.webp);" class="text-white text-center p-5 bgimg">
+    <h1>Guia Tático CS2</h1>
+</header>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img class="rounded-3" width="55" height="40"
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAclBMVEUpN37////Aw9UXKngdLny5vM7j5O0SJ3cRJngYKnogMHvV1+P6+vy0tsy8v9HFyNppcJ7Q0eCAhKpaYpUAGnMlM3yFi680QIP09Pjc3ugHIXWmqcMAEnAvPIGeor5yeaRPWZGTmLc7RoXr7PJGUYwAAG0SASudAAACOElEQVR4nO3X25KiMBAG4MQgCShyPkxAEXHe/xU3hJnSHPZmzcVe/F+N5VSbkq6ku0FCAAAAAAAAAAAAAAAAAAAAAAAA/i8tS2zpFo+SyKFWu8EkfE7i2mUX0+EmCGNzdrCVtShyJ7pEbeCc0m6gjjmK6tgN07WfTp5wGTinZvRcJG5FcfbE6SjvvjAt0pA5scp3jUU+PNtH6XCXmTepRYRMiqjTOGW5aSRC7V/sllTFo6605NuWzlHAlKJCfeM5l4K/Y+1jVfGvXr5iQuHqkFJjJW9mvTJgSoRM+bb5Z2aF+X6oPWe/fvurTQ1sP+YbD5hTej97v7PRnXeaq5enPiD2KEy6xIZryJEgdOsNtdM7bpmvlVQ5FfHZpD+7TAFzIrp06EU6ya6eDqvT9umdE/QZcqN+Sqd2Wkf6hteYeGcapVnQISX1hpycjVLnNK7Dmz0pcdX/WAe4Lk3InNg+tRffjOHP+qXT64pm0RU4m6X+CNl5qvf0PIj9rfPq/XY66A1t0q/t/TiZUyHsvfinbG/f4g1rSZtsk5Lvf+olE316naz1+70xpqcIWlBE6NOgsalInqUV0pUU91OpK+pk8Z7+P/O2WNw3ubfFOuG/R1N3yH0iLTyXWJraO4uyqe29SZVBB6fKyn0MORPuezYZuvQvO0sr+775KVllR1PByXjMbFWrH5d4d7Rdxj5wTttPA2bYfjBE3MLUo8y+nFnLt6eH4DkBAAAAAAAAAAAAAAAAAAAAAAB85A+eeioKH0vDFwAAAABJRU5ErkJggg=="
+        alt="CS2 logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"
+      id="collapsibleNavbar">
+      <div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pistolas.html">Pistolas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rifles.html">Rifles de Assalto/Snipers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="escopetas.html">Escopetas/LMGs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="smgs.html">SMGs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Contatos</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://x.com/?lang=pt-br">Twitter</a></li>
+                <li><a class="dropdown-item" href="https://discord.com">Discord</a></li>
+                <li><a class="dropdown-item" href="https://www.instagram.com">Instagram</a></li>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <main class="container-fluid">
+        <section style="background-attachment: fixed; background-size: 100% 100% ; background-image: url(https://tradeit.gg/blog/wp-content/uploads/2023/07/image-21-1024x576.webp);" class="row">
+          <!-- Offcanvas Sidebar -->
+          <div class="offcanvas offcanvas-start text-bg-dark" id="demo9">
+            <div class="offcanvas-header">
+              <h1 class="offcanvas-title">Login</h1>
+            </div>
+            <div class="offcanvas-body">
+              <form class="w-80 border p-3">
+                  <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite o email" name="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="pwd" class="form-label">Senha:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Informe sua senha" name="pswd">
+                  </div>
+                  <div class="form-check mb-3">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" name="remember"> Lembrar me
+                    </label>
+                  </div>
+                  <textarea name="message" rows="5" cols="20">Tem alguma sugestão de melhora?</textarea>
+                <br>
+                  <button style="background-color: white;" type="button" class="btn">Logar</button>
+                </form>
+      
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 p-4">
+                <div class="card">
+                    <img class="imagem card-img-top"
+                        src="https://csgolist.com/img/weapons/heavy/mag-7.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">MAG-7</h4>
+                        <p class="card-text">A Mag-7 em CS2 é uma espingarda de cano curto eficaz em combates de curta distância, com alto poder de dano, especialmente em espaços confinados. É menos preciso em longas distâncias, sendo ideal para confrontos próximos.</p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mag">
+                        Ver mais
+                        </button>
+                  
+                        <!-- The Modal -->
+                        <div class="modal fade" id="mag">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title"><img src="https://csgolist.com/img/weapons/heavy/mag-7.png" alt=""></h4>
+                              </div>
+                        
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                                <h3>MAG-7</h3>
+                    <ul>
+                      <li>Dano no corpo sem colete:    30</li> 
+                      <li>Dano no corpo com colete:    22</li>
+                      <li>Dano na cabeça se capacete:  120 </li>
+                      <li>Dano na cabeça com capacete: 90</li>
+                     </ul>
+                                
+                              </div>
+                        
+                        
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 p-4">
+                <div class="card">
+                    <img class=" imagem card-img-top"
+                        src="https://csgolist.com/img/weapons/heavy/nova.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Nova</h4>
+                        <p class="card-text">A Nova em CS2 é uma espingarda eficaz em combates de curta a média distância, com bom poder de dano e taxa de tiro rápida. É ideal para confrontos em áreas mais abertas, mas sua precisão diminui em longas distâncias.</p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#nova">
+                        Ver mais
+                        </button>
+                  
+                        <!-- The Modal -->
+                        <div class="modal fade" id="nova">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title"><img src="https://csgolist.com/img/weapons/heavy/nova.png" alt=""></h4>
+                              </div>
+                        
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                                <h3>Nova</h3>
+                    <ul>
+                      <li>Dano no corpo sem colete:    26</li> 
+                      <li>Dano no corpo com colete:    13</li>
+                      <li>Dano na cabeça se capacete:  106 </li>
+                      <li>Dano na cabeça com capacete: 52</li>
+                     </ul>
+                              </div>
+                        
+                        
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 p-4">
+                <div class="card">
+                    <img class="imagem card-img-top"
+                        src="https://csgolist.com/img/weapons/heavy/sawed-off.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Cano Curto</h4>
+                        <p class="card-text">A Cano Curto em CS2 é uma espingarda de cano curto eficaz em combates de curta distância, com alto poder de dano. É ideal para confrontos em espaços confinados, mas tem precisão limitada e alcance curto, sendo menos eficaz em combates à distância.                        </p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#curto">
+                        Ver mais
+                        </button>
+                  
+                        <!-- The Modal -->
+                        <div class="modal fade" id="curto">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title"><img src="https://csgolist.com/img/weapons/heavy/sawed-off.png" alt=""></h4>
+                              </div>
+                        
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                                <h3>Cano Curto</h3>
+                    <ul>
+                      <li>Dano no corpo sem colete:    32</li> 
+                      <li>Dano no corpo com colete:    13</li>
+                      <li>Dano na cabeça se capacete:  128 </li>
+                      <li>Dano na cabeça com capacete: 96</li>
+                     </ul>
+                              </div>
+                        
+                        
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 p-4">
+                <div class="card">
+                    <img class="imagem card-img-top"
+                        src="https://csgolist.com/img/weapons/heavy/xm1014.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">XM1014</h4>
+                        <p class="card-text">A XM1014 em CS2 é uma espingarda automática usada para disparar vários tiros rapidamente, eficaz em confrontos de curta a média distância, especialmente em espaços confinados. Sua precisão diminui em distâncias maiores, sendo menos eficiente em combates à distância.                        </p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Ver mais
+                        </button>
+                  
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title">Sei la</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                              </div>
+                        
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                                Modal body..
+                              </div>
+                        
+                        
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 p-4">
+                <div class="card">
+                    <img class="imagem card-img-top"
+                        src="https://csgolist.com/img/weapons/heavy/m249.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">M249</h4>
+                        <p class="card-text">A M249 em CS2 é uma metralhadora pesada com alta cadência de tiro e poder de dano, usada para suprimir áreas e fornecer cobertura de fogo. Sua eficácia é notável em posições defensivas, mas seu custo elevado a torna uma escolha menos frequente.</p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Ver mais
+                        </button>
+                  
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title">Sei la</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                              </div>
+                        
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                                Modal body..
+                              </div>
+                        
+                        
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 p-4">
+                <div class="card">
+                    <img class="imagem card-img-top"
+                        src="https://csgolist.com/img/weapons/heavy/negev.png"
+                        alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Negev</h4>
+                        <p class="card-text">O Negev em CS2 é uma metralhadora com alta taxa de disparo e grande capacidade de munição. Eficaz em suprimir áreas e causar danos em massa, principalmente em combates de média a longa distância. Apesar disso, sua precisão diminui em rajadas prolongadas, exigindo controle de recuo. Geralmente adquirida em fases avançadas do jogo devido ao seu custo elevado.</p>
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Ver mais
+                        </button>
+                  
+                        <!-- The Modal -->
+                        <div class="modal fade" id="myModal">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                        
+                              <!-- Modal Header -->
+                              <div class="modal-header">
+                                <h4 class="modal-title">Sei la</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                              </div>
+                        
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                                Modal body..
+                              </div>
+                        
+                        
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center text-white bg-black p-3">
+        <p>&copy; Desenvolvido por Marcos Junior</p>
+        <!-- Button to open the offcanvas sidebar --></p>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo9">
+      Login
+    </button>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

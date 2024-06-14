@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS2</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+  .imagem {
+    background-color: gray;
+    height: 300px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .carousel-item img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .carousel-item-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .bgimg{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-attachment: fixed;
+  }
+</style>
+
+<body>
+  <header
+    style="background-repeat:no-repeat; background-size: cover; background-position: center; object-fit: cover; background-image: url(https://tradeit.gg/blog/wp-content/uploads/2023/07/image-20-1024x576.webp);"
+    class=" text-white text-center p-5">
+    <h1>Guia Tático CS2</h1>
+  </header>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="rounded-3" width="55" height="40"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAclBMVEUpN37////Aw9UXKngdLny5vM7j5O0SJ3cRJngYKnogMHvV1+P6+vy0tsy8v9HFyNppcJ7Q0eCAhKpaYpUAGnMlM3yFi680QIP09Pjc3ugHIXWmqcMAEnAvPIGeor5yeaRPWZGTmLc7RoXr7PJGUYwAAG0SASudAAACOElEQVR4nO3X25KiMBAG4MQgCShyPkxAEXHe/xU3hJnSHPZmzcVe/F+N5VSbkq6ku0FCAAAAAAAAAAAAAAAAAAAAAAAA/i8tS2zpFo+SyKFWu8EkfE7i2mUX0+EmCGNzdrCVtShyJ7pEbeCc0m6gjjmK6tgN07WfTp5wGTinZvRcJG5FcfbE6SjvvjAt0pA5scp3jUU+PNtH6XCXmTepRYRMiqjTOGW5aSRC7V/sllTFo6605NuWzlHAlKJCfeM5l4K/Y+1jVfGvXr5iQuHqkFJjJW9mvTJgSoRM+bb5Z2aF+X6oPWe/fvurTQ1sP+YbD5hTej97v7PRnXeaq5enPiD2KEy6xIZryJEgdOsNtdM7bpmvlVQ5FfHZpD+7TAFzIrp06EU6ya6eDqvT9umdE/QZcqN+Sqd2Wkf6hteYeGcapVnQISX1hpycjVLnNK7Dmz0pcdX/WAe4Lk3InNg+tRffjOHP+qXT64pm0RU4m6X+CNl5qvf0PIj9rfPq/XY66A1t0q/t/TiZUyHsvfinbG/f4g1rSZtsk5Lvf+olE316naz1+70xpqcIWlBE6NOgsalInqUV0pUU91OpK+pk8Z7+P/O2WNw3ubfFOuG/R1N3yH0iLTyXWJraO4uyqe29SZVBB6fKyn0MORPuezYZuvQvO0sr+775KVllR1PByXjMbFWrH5d4d7Rdxj5wTttPA2bYfjBE3MLUo8y+nFnLt6eH4DkBAAAAAAAAAAAAAAAAAAAAAAB85A+eeioKH0vDFwAAAABJRU5ErkJggg=="
+          alt="CS2 logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pistolas.html">Pistolas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rifles.html">Rifles de Assalto/Snipers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="escopetas.html">Escopetas/LMGs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="smgs.html">SMGs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Contatos</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://x.com/?lang=pt-br">Twitter</a></li>
+                <li><a class="dropdown-item" href="https://discord.com">Discord</a></li>
+                <li><a class="dropdown-item" href="https://www.instagram.com">Instagram</a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+
+  <main class="container-fluid">
+    <section
+      style="height: 900px; background-image: url(https://tradeit.gg/blog/wp-content/uploads/2023/07/image-20-1024x576.webp);"
+      class="row bgimg">
+      <!-- Offcanvas Sidebar -->
+      <div class="offcanvas offcanvas-start text-bg-dark" id="demo9">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">Login</h1>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <form class="w-80 border p-3">
+              <div class="mb-3 mt-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite o email" name="email">
+              </div>
+              <div class="mb-3">
+                <label for="pwd" class="form-label">Senha:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Informe sua senha" name="pswd">
+              </div>
+              <div class="form-check mb-3">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> Lembrar me
+                </label>
+                
+              </div>
+              <textarea name="message" rows="5" cols="20">Tem alguma sugestão de melhora?</textarea>
+                <br>
+              <button style="background-color: white;" type="button" class="btn">Logar</button>
+            </form>
+  
+        </div>
+      </div>
+
+
+      <div>
+        <h6 class="text-center text-white  h6" style="font-size: 40px;">Bem Vindo ao Meu Site</h6>
+        <h6 class="text-center text-white  h6" style="font-size: 20px;">Counter-Strike e Counter-Strike 2 são jogos de
+          tiro em primeira pessoa multiplayer extremamente populares que foram lançados em 1999 e 2004, respectivamente.
+          Os jogos são jogados em equipes de terroristas e contra-terroristas, e o objetivo é plantar ou desarmar uma
+          bomba em um mapa ou eliminar todos os inimigos.</h6>
+
+        <h6 class="text-center text-white  h6" style="font-size: 20px;">Aqui você encontrará tudo o que precisa saber
+          sobre armas de Counter-Strike 2</h6>
+
+        <h6 class="text-center text-white  h6" style="font-size: 20px;">Então, se você é um jogador de Counter-Strike 2,
+          ou se você está apenas interessado em aprender mais sobre o jogo, não deixe de visitar noss as categorias de
+          armas acima!</h6>
+
+      </div>
+      <!-- Carousel -->
+      <div id="demo" class=" carousel slide " data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://csgolist.com/img/weapons/pistols/five-seven.png" alt="Los Angeles" class="d-block">
+          </div>
+          <div class="carousel-item">
+            <img src="https://csgolist.com/img/weapons/rifles/awp.png" alt="Chicago" class="d-block">
+          </div>
+          <div class="carousel-item">
+            <img src="https://csgolist.com/img/weapons/heavy/xm1014.png" alt="New York" class="d-block ">
+          </div>
+          <div class="carousel-item">
+            <img src="https://csgolist.com/img/weapons/smgs/mac-10.png" alt="New York" class="d-block ">
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+  </main>
+
+  <footer class="text-center text-white bg-black p-3">
+    <p>&copy; Desenvolvido por Marcos Junior <!-- Button to open the offcanvas sidebar --></p>
+    <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo9">
+      Login
+    </button>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
